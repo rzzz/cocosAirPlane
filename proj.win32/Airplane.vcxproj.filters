@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Classes\welcomePage">
+      <UniqueIdentifier>{35ed9505-5abd-4097-a803-0a6e58cade58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ui">
+      <UniqueIdentifier>{925a91e8-7e69-4608-a04d-86a57f01a367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameOverPage">
+      <UniqueIdentifier>{ce87d8a0-c31d-4ac5-8f69-b2b382c37465}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\welcomePage\WelcomeScene.cpp">
+      <Filter>Classes\welcomePage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletLayer.cpp">
+      <Filter>Classes\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ControlLayer.cpp">
+      <Filter>Classes\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Enemy.cpp">
+      <Filter>Classes\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EnemyLayer.cpp">
+      <Filter>Classes\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer.cpp">
+      <Filter>Classes\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>Classes\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlaneLayer.cpp">
+      <Filter>Classes\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\welcomePage\WelcomeLayer.cpp">
+      <Filter>Classes\welcomePage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameOverPage\GameOverLayer.cpp">
+      <Filter>Classes\gameOverPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameOverPage\GameOverScene.cpp">
+      <Filter>Classes\gameOverPage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\welcomePage\WelcomeScene.h">
+      <Filter>Classes\welcomePage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletLayer.h">
+      <Filter>Classes\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ControlLayer.h">
+      <Filter>Classes\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemy.h">
+      <Filter>Classes\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnemyLayer.h">
+      <Filter>Classes\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer.h">
+      <Filter>Classes\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>Classes\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlaneLayer.h">
+      <Filter>Classes\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\welcomePage\WelcomeLayer.h">
+      <Filter>Classes\welcomePage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameOverPage\GameOverLayer.h">
+      <Filter>Classes\gameOverPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameOverPage\GameOverScene.h">
+      <Filter>Classes\gameOverPage</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
